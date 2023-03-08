@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    /* background-color: red; */
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.nav_list_01 {
+    padding-left: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav_list_02 {
+    flex-direction: column;
+    padding-left: 0;
+    
+    
+}
+
+.nav_item__push_right {
+    margin-left: auto;
+}
+
+
