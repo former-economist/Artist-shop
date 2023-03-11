@@ -8,6 +8,8 @@ import LoginPage from "./pages/LoginPage";
 import CartPage from "./pages/CartPage";
 import InspirationPage from "./pages/InspirationPage";
 import ContactPage from "./pages/ContactPage";
+import StorePage from "./pages/Workpage/WorkPage";
+import AboutPage from "./pages/AboutPage";
 
 const router = createBrowserRouter([
   {
@@ -15,9 +17,11 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       { path: "/", element: <HomePage /> },
+      { path: "/work", element: <StorePage /> },
       { path: "/draw", element: <DrawPage /> },
       { path: "/login", element: <LoginPage /> },
       { path: "/cart", element: <CartPage /> },
+      { path: "/about", element: <AboutPage /> },
       { path: "/inspiration", element: <InspirationPage /> },
       { path: "/contact", element: <ContactPage /> },
     ],

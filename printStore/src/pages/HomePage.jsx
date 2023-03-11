@@ -1,9 +1,26 @@
+import { Fragment } from "react";
+import heroImage from "../assets/pictures/heroImage.png";
+import styles from "./HomePage.module.css";
+import { Link } from "react-router-dom";
+
 const HomePage = () => {
-    return (
-        <>
-        <img src="./hero-image.png" alt="" />
-        </>
-    );
-}
+  return (
+    <Fragment>
+      <div className={`${styles.container}`}>
+        <picture>
+          <img
+            src={heroImage}
+            className={`${styles.image}`}
+            alt="black and white image of injuried soldier"
+          />
+          <div className={`${styles.heroText}`}>
+            <h2 className="proof">A/P</h2>
+            <h2 className={`${styles.name}`}><Link to="/about">Adam Smith</Link></h2>
+          </div>
+        </picture>
+      </div>
+    </Fragment>
+  );
+};
 
 export default HomePage;
