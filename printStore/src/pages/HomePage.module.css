@@ -9,6 +9,8 @@
     justify-content: space-between;
     margin-top:  2rem;
     text-transform: uppercase;
+    border: none;
+    border-bottom: 2px solid;
 }
 
 .name a {

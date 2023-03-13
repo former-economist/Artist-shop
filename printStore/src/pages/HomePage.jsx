@@ -13,11 +13,17 @@ const HomePage = () => {
             className={`${styles.image}`}
             alt="black and white image of injuried soldier"
           />
-          <div className={`${styles.heroText}`}>
-            <h2 className="proof">A/P</h2>
-            <h2 className={`${styles.name}`}><Link to="/about">Adam Smith</Link></h2>
-          </div>
         </picture>
+        <div className={`${styles.heroText}`}>
+          <h2 className="proof">A/P</h2>
+          <h1 className={`${styles.name}`}>
+            <Link to="/about">Adam Smith</Link>
+          </h1>
+        </div>
+        <div>
+          <h2>Artist/Screen-Printer/Etcher/</h2>
+
+        </div>
       </div>
     </Fragment>
   );

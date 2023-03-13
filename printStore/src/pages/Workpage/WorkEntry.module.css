@@ -1,4 +1,12 @@
 .work_container{
     margin: 20% auto;
     max-width: 870px;
+    padding-bottom: 2rem;
+    border: none;
+    border-bottom: 2px solid rgb(136, 136, 136);
 }
+
+.title {
+    margin-top: 1rem;
+}
+

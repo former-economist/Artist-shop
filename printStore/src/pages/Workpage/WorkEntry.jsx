@@ -8,8 +8,8 @@ const WorkEntry = (props) => {
         <picture>
           <img src={image} alt="" />
         </picture>
-        <h3>{title}</h3>
-        <p>{media}</p>
+        <h3 className={`${styles.title}`}>{title}</h3>
+        <p className={`${styles.text}`}>{media}</p>
       </div>
     </Fragment>
   );
