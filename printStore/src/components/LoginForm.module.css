@@ -1,0 +1,42 @@
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+
+  /* background-color: red; */
+}
+
+.form label,
+.form input {
+    display: block;
+    width: 100%;
+    background-color: #f9fff7;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  margin: 0.5rem 0rem;
+  padding: 1rem;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.actions button{
+  border: none;
+  padding: 0.5rem 0.75rem;
+}
+
+@media (max-width: 670px) {
+  .form{
+    width: 80%;
+  }
+}

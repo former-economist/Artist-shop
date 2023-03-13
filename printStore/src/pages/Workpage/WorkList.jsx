@@ -7,7 +7,7 @@ const WorkList = (props) => {
     <Fragment>
       <div className={`${styles.horiz_list}`}>
         {items.map((item) => (
-          <WorkEntry key={item.id} image={item.image} title={item.title} />
+          <WorkEntry key={item.id} image={item.image} title={item.title} media={item.media} />
         ))}
       </div>
     </Fragment>
