@@ -14,37 +14,43 @@ const intital_data = [
     id: 'e1',
     image: bwArmy,
     title: 'untitled',
-    media: 'Digital print'
+    media: 'Digital print',
+    price: '100'
   },
   {
     id: 'e2',
     image: bwBattle,
     title: 'untitled',
-    media: 'Digital print'
+    media: 'Digital print',
+    price: '100'
   },
   {
     id: 'e3',
     image: bwBegger,
     title: 'untitled',
-    media: 'Book'
+    media: 'Book',
+    price: '100'
   },
   {
     id: 'e4',
     image: bwFamine,
     title: 'untitled',
-    media: 'Book'
+    media: 'Book',
+    price: '100'
   },
   {
     id: 'e5',
     image: bwFeces,
     title: 'untitled',
-    media: 'Book'
+    media: 'Book',
+    price: '100'
   },
   {
     id: 'e6',
     image: bwFlaying,
     title: 'untitled',
-    media: 'Book'
+    media: 'Book',
+    price: '100'
   },
 
 ]

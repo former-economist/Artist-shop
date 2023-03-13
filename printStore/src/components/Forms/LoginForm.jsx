@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Form, Link } from "react-router-dom";
-import styles from "./LoginForm.module.css";
+import styles from "./Form.module.css";
 
 const LoginForm = () => {
   return (

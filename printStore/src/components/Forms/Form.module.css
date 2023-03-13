@@ -7,10 +7,11 @@
 }
 
 .form label,
-.form input {
+.form input,
+.form textarea {
     display: block;
     width: 100%;
-    background-color: #f9fff7;
+    background-color: #fcfcfc;
 }
 
 .form input,
@@ -35,6 +36,12 @@
   background-color: #111;
   border: none;
   padding: 0.5rem 0.75rem;
+}
+
+button:hover {
+  color: #2a2a2a;
+  background-color: #fcfcfc;
+  border: 2px solid #2a2a2a;
 }
 
 @media (max-width: 670px) {

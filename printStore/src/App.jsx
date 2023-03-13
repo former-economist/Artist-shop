@@ -5,7 +5,7 @@ import DrawPage from "./pages/DrawPage";
 import "./App.css";
 import RootLayout from "./pages/RootLayout";
 import LoginPage from "./pages/Loginpage/LoginPage";
-import CartPage from "./pages/CartPage";
+import CartPage from "./pages/Cartpage/CartPage";
 import InspirationPage from "./pages/InspirationPage";
 import ContactPage from "./pages/ContactPage";
 import WorkPage from "./pages/Workpage/WorkPage";

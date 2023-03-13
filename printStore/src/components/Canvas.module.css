@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  /* background-color: red; */
+}
+
+button{
+    color: #f9fff7;
+    background-color: #111;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 2%;
+  }
